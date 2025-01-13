@@ -1,0 +1,14 @@
+[project]
+name = "camelot"
+version = "1.0.0"
+scripts = { "holy-grail-camelot-scene" = "camelot:camelot" }
+description = "It's a very silly place."
+license = { file = "LICENSE.txt" }
+
+[[project.authors]]
+name = "Md Hanif Ali Sohag"
+email = "hanifalisohag@gmail.com"
+
+[build-system]
+requires = ['setuptools>=42','wheel']
+build-backend = 'setuptools.build_meta'
