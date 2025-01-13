@@ -1,8 +1,8 @@
 [project]
 name = "camelot"
 version = "1.0.0"
-scripts = { "holy-grail-camelot-scene" = "camelot:camelot" }
-description = "It's a very silly place."
+scripts = { "camelot-run" = "camelot:camelot" }
+description = "Python project build as a module"
 license = { file = "LICENSE.txt" }
 
 [[project.authors]]

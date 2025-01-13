@@ -27,8 +27,8 @@ The `pyproject.toml` file includes essential metadata:
 [project]
 name = "camelot"
 version = "1.0.0"
-scripts = { "holy-grail-camelot-scene" = "camelot:camelot" }
-description = "It's a very silly place."
+scripts = { "camelot-run" = "camelot:camelot" }
+description = "Python project build as a module"
 license = { file = "LICENSE.txt" }
 
 [[project.authors]]
@@ -80,7 +80,7 @@ Successfully installed camelot-1.0.0
 and try the wrapper:
 
 ```
-(.venv) $ holy-grail-camelot-scene 
+(.venv) $ camelot-run 
 It's only a model...
 ```
 
